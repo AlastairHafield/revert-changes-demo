@@ -24,8 +24,8 @@ var handleFormSubmit = function (event) {
 
   printSkills(nameInput, dateInput);
 
- // nameInputEl.val('');
- // dateInputEl.val('');
+  nameInputEl.val('');
+  dateInputEl.val('');
 };
 
 formEl.on('submit', handleFormSubmit);
